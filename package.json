@@ -10,6 +10,10 @@
     "categories": [
         "Languages"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/moozzyk/ArduinoCode.git"
+    },
     "engines": {
         "vscode": "0.10.x"
     },

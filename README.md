@@ -1,3 +1,4 @@
-# ArduinoCode - Arduino extension for Visual Studio Code
+##Arduino extension for Visual Studio Code
 
-Syntax coloring based on [Arduino TextMate Bundle](https://github.com/nasser/arduino.tmbundle)
+Features:
+ * Syntax coloring for `.ino` and `.pde` files (based on [Arduino TextMate Bundle](https://github.com/nasser/arduino.tmbundle))

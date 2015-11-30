@@ -1,0 +1,28 @@
+{
+    "name": "Arduino",
+    "version": "0.0.1",
+    "publisher": "moozzyk",
+    "description": "Arduino support for Visual Studio Code",
+    "author": {
+        "name": "Pawel Kadluczka"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "engines": {
+        "vscode": "0.10.x"
+    },
+    "contributes": {
+        "languages": [{
+            "id": "arduino",
+            "extensions": [ ".ino", ".pde" ],
+            "aliases": [ "Arduino", "arduino" ],
+            "configuration": "./arduino.configuration.json"
+        }],
+        "grammars": [{
+            "language": "arduino",
+            "path": "./syntaxes/arduino.tmLanguage",
+            "scopeName": "source.c++.arduino"
+        }]
+    }
+}

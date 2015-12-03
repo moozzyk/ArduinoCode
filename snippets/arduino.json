@@ -1,0 +1,35 @@
+{
+    "setup": {
+        "prefix": "setup",
+        "body": [
+            "void setup()",
+            "{",
+            "}"
+        ],
+        "description": "setup function"
+    },
+
+    "loop": {
+        "prefix": "loop",
+        "body": [
+            "void loop()",
+            "{",
+            "}"
+        ],
+        "description": "loop function"
+    },
+
+    "new sketch template": {
+        "prefix": "new sketch",
+        "body": [
+            "void setup()",
+            "{",
+            "}",
+            "",
+            "void loop()",
+            "{",
+            "}"
+        ],
+        "description": "New sketch template"
+    },
+}

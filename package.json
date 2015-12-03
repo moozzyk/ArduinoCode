@@ -1,6 +1,6 @@
 {
     "name": "Arduino",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "moozzyk",
     "description": "Arduino support for Visual Studio Code",
     "author": {
@@ -28,6 +28,12 @@
             "language": "arduino",
             "path": "./syntaxes/arduino.tmLanguage",
             "scopeName": "source.c++.arduino"
-        }]
+        }],
+        "snippets": [
+            {
+                "language": "arduino",
+                "path": "./snippets/arduino.json"
+            }
+        ]
     }
 }

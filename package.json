@@ -1,6 +1,6 @@
 {
     "name": "Arduino",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "moozzyk",
     "description": "Arduino support for Visual Studio Code",
     "author": {

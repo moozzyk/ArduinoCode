@@ -21,42 +21,42 @@
             </dict>
             <dict>
                 <key>include</key>
-                <string>source.c++</string>
+                <string>source.cpp</string>
             </dict>
             <dict>
                 <key>match</key>
                 <string>\b(HIGH|LOW|INPUT|OUTPUT|DEC|BIN|HEX|OCT|BYTE|PI|HALF_PI|TWO_PI|LSBFIRST|MSBFIRST|CHANGE|FALLING|RISING|DEFAULT|EXTERNAL|INTERNAL|INTERNAL1V1|INTERNAL2V56|null)\b</string>
                 <key>name</key>
-                <string>constant.c++.arduino</string>
+                <string>constant.language.cpp.arduino</string>
             </dict>
             <dict>
                 <key>match</key>
                 <string>\b(boolean|byte|word)\b</string>
                 <key>name</key>
-                <string>storage.c++.arduino</string>
+                <string>storage.type.cpp.arduino</string>
             </dict>
             <dict>
                 <key>match</key>
                 <string>\b(abs|acos|asin|atan|atan2|ceil|constrain|cos|degrees|exp|floor|log|map|max|min|radians|random|randomSeed|round|sin|sq|sqrt|tan|bitRead|bitWrite|bitSet|bitClear|bit|highByte|lowByte|analogReference|analogRead|analogWrite|attachInterrupt|detachInterrupt|delay|delayMicroseconds|digitalWrite|digitalRead|interrupts|millis|micros|noInterrupts|noTone|pinMode|pulseIn|shiftOut|tone|begin|end|read|print|println|available|flush|setup|loop)\b</string>
                 <key>name</key>
-                <string>support.function.c++.arduino</string>
+                <string>entity.name.function</string>
             </dict>
             <dict>
                 <key>match</key>
                 <string>\b(Serial\d?)\b</string>
                 <key>name</key>
-                <string>support.class.c++.arduino</string>
+                <string>entity.name.class</string>
             </dict>
             <dict>
                 <key>match</key>
                 <string>\b(private|protected|public)</string>
                 <key>name</key>
-                <string>storage.modifier.c++.arduino</string>
+                <string>storage.modifier.cpp.arduino</string>
             </dict>
         </array>
         <key>scopeName</key>
-        <string>source.c++.arduino</string>
+        <string>source.cpp.arduino</string>
         <key>uuid</key>
-        <string>65E5AFAE-4AE7-4DAE-837B-1B99810E464C</string>
+        <string>C7E51966-DE65-4CEA-B6B5-D2A97CEC4465</string>
     </dict>
 </plist>

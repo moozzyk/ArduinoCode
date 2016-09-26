@@ -1,6 +1,7 @@
 {
-    "name": "Arduino",
-    "version": "0.0.4",
+    "name": "arduino",
+    "displayName": "Arduino",
+    "version": "0.0.5",
     "publisher": "moozzyk",
     "description": "Arduino support for Visual Studio Code",
     "author": {
@@ -15,7 +16,7 @@
         "url": "https://github.com/moozzyk/ArduinoCode.git"
     },
     "engines": {
-        "vscode": "0.10.x"
+        "vscode": "^1.5.0"
     },
     "contributes": {
         "languages": [{
@@ -27,7 +28,7 @@
         "grammars": [{
             "language": "arduino",
             "path": "./syntaxes/arduino.tmLanguage",
-            "scopeName": "source.c++.arduino"
+            "scopeName": "source.cpp.arduino"
         }],
         "snippets": [
             {

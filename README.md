@@ -1,4 +1,4 @@
-##Arduino extension for Visual Studio Code
+## Arduino extension for Visual Studio Code
 
 Features:
  * Version 0.0.1
